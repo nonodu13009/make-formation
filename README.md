@@ -26,6 +26,7 @@ Application moderne de prise de notes pour la formation Make, inspirée de bolt.
 ```bash
 # Cloner le repository
 git clone https://github.com/nonodu13009/make-formation.git
+cd make-formation
 
 # Installer les dépendances
 npm install
