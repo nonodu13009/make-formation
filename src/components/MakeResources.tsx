@@ -7,7 +7,7 @@ import {
   Users, 
   FileText, 
   Code, 
-  Template, 
+  Layout, 
   ExternalLink,
   ChevronRight,
   Search,
@@ -64,7 +64,7 @@ const makeResources: Resource[] = [
     description: 'Modèles prêts à l\'emploi pour vos automatisations',
     url: 'https://help.make.com/en/templates',
     category: 'templates',
-    icon: <Template className="w-5 h-5" />
+    icon: <Layout className="w-5 h-5" />
   },
   {
     id: '6',
@@ -271,7 +271,7 @@ export default function MakeResources() {
             onClick={() => handleResourceClick('https://help.make.com/en/templates')}
             className="p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-medium transition-all group"
           >
-            <Template className="w-5 h-5 mx-auto mb-2 group-hover:scale-110 transition-transform" />
+            <Layout className="w-5 h-5 mx-auto mb-2 group-hover:scale-110 transition-transform" />
             Templates
           </button>
           <button
